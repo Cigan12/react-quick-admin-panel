@@ -1,0 +1,28 @@
+{
+    "name": "react-quick-admin-panel",
+    "version": "1.0.0",
+    "description": "React admin panel",
+    "types": "./lib/esm/index.d.ts",
+    "module": "./lib/esm/index.js",
+    "repository": "https://github.com/Cigan12/react-quick-admin-panel.git",
+    "author": "Cigan",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react": "^17.0.11",
+        "@types/react-dom": "^17.0.7",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "typescript": "^4.3.2"
+    },
+    "scripts": {
+        "start": "tsc -w",
+        "build": "tsc"
+    },
+    "peerDependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "files": [
+        "/lib"
+    ]
+}
