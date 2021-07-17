@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { TestComponent } from 'react-quick-admin-panel';
 
-function App() {
+export const App: React.FC = () => {
     return (
         <div className="App">
             <TestComponent />
@@ -11,4 +10,4 @@ function App() {
     );
 }
 
-export default App;
+
